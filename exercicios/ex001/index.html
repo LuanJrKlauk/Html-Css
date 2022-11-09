@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMATAÇÃO DE
+        TEXTOS</title>
+        <style>
+            body {
+
+            background: linear-gradient(to left, #009bdd65, #a1c7e0b6);
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+            h1 {
+            text-align: center;
+            background-color: #FF9933;
+            color: #026E81;
+            text-shadow: 2px 2px 0px black;
+            }
+
+            main {
+            width: 600px;
+            background-color: rgb(104, 15, 15);
+            padding: 15px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 5px 10px 10px #026E81;
+            }
+
+            p {
+            text-align: justify;
+            text-indent: 25px;
+            color: aliceblue;
+            }
+
+        </style>
+</head>
+
+<body>
+
+        <h1  style="font-size: 70px;"
+         > Olá, Mundo </h1>
+
+
+         <main>
+             <h2>Você já ouviu falar de semântica?</h2>
+                <p><em>
+                   <q>Semântica é o significado dos
+                       vocábulos, por oposição à sua
+                       forma. </q>
+                </em></p>
+                <p>
+                    Analisando a frase acima percebemos que uma palavra pode ter
+                    forma e significado, e que a semântica dá mais valor ao significado.
+                    Na HTML4, tínhamos tags como <strong>&lt;b &gt;</strong> que colocava um texto em negrito, <strong>&lt;u
+                    &gt;</strong> que
+                    colocava o termo sublinhado e <strong>&lt;blink&gt;</strong> que fazia o texto piscar. Essas eram tags que
+                    representavam apenas uma forma. Você dizia que queria um texto sublinhado, mas
+                    qual era o motivo? Qual era o sentido de sublinhar alguma coisa? Vamos ver um
+                    exemplo:
+                </p>
+                <p><q>
+                    <em>
+                        Juvenal era um sujeito de muita sorte. E já
+                        começou de pequeno, onde morou na <strong>&lt;u&gt;</strong>Rua Marquês
+                        de Lira Filho <strong>&lt;u&gt;</strong>, um local de fácil acesso ao
+                        Centro da cidade.
+                    </em>
+                </q></p>
+                <p>
+                    Em HTML4, colocamos o par de tags<strong> &lt;u&gt;</strong> e <strong>&lt;/u&gt;</strong> para delimitar o termo Rua Marquês
+                    de Lira Filho. Isso seria uma maneira de determinar somente um formato visual para
+                    chamar atenção para o endereço onde o cara nasceu. O sublinhado é apenas uma
+                    <strong>forma</strong>, sem <strong>significado</strong> explícito. Sublinhamos só pra chamar atenção visualmente.
+                    Já a HTML5 chegou com o conceito de valorizar a semântica, logo suas tags tentam
+                    levar um significado embutido muito forte. Logo, a frase acima ficaria assim:
+                </p>
+                <p>
+                    Juvenal era um sujeito de muita sorte. E já
+                    começou de pequeno onde morou na <strong>&lt;address&gt;</strong> Rua
+                        Marquês de Lira Filho <strong>&lt;/address&gt;</strong>, um local de
+                    fácil acesso ao Centro da cidade.
+                </p>
+                <p>
+                    Note que agora, usamos a tag <strong>&lt;address&gt;</strong> para dar um significado ao destaque que
+                        fizemos. Estamos chamando atenção para Rua Marquês de Lira Filho por se tratar do
+                        endereço da pessoa. No caso, um navegador de celular pode até sugerir que você veja
+                        o mapa do local e trace a rota para chegar lá. Viu?<strong> SIGNIFICADO!</strong>
+                </p>
+                <h2>Tags morrem, você sabia?</h2>
+                <p>Existem tags que ainda funcionam hoje em dia, mas estão prestes a
+                    serem consideradas obsoletas, como as tags <strong>&lt;font&gt;</strong> e <strong>&lt;center&gt;</strong>. E
+                            existem outras que simplesmente foram excluídas das versões mais
+                            atuais da HTML5, como é o caso do<strong> &lt;applet&gt;</strong> e <strong>&lt;blink&gt;</strong>.
+                <p>Isso acontece porque a linguagem evolui, e nesse processo algumas tags
+                    param de fazer sentido pois existem outras bem melhores e que fazem
+                    mais sentido. </p>
+                <p>Sendo assim, a própria W3C sugere que no lugar de<strong> &lt;b&gt;</strong>, que significa<strong> bold </strong>ou
+                        <strong>negrito</strong> e que seria simplesmente uma forma de apresentar um dado, passemos a
+                        usar a tag<strong> &lt;strong&gt;</strong>, que tem um significado de<strong> força</strong> ou <strong>potência</strong> dentro da frase</p>
+                <p><strong>FIQUE SEMPRE DE OLHO:</strong> Existe um documento oficial do
+                    Consórcio da World Wide Web (<abbr  style="background-color: chartreuse;", title="World Wide Web Consortium "><em><strong>W3C</strong></em></abbr> ) que é atualizado
+                    constantemente com as tags que estão ficando obsoletas e algumas
+                    substituição desejáveis que devemos fazer. </p>
+                <ul>
+                    <li>
+                        <a href=" https://www.w3.org/TR/html5-
+                        diff/#absent-attributes " target="_blank">Diferenças entre HTML4 e 5</a></li>
+                        <li>
+                            <a href="https://dev.w3.org/html5/pf-summary/obsolete.html" target="_blank">Elementos obsoletos
+                                na HTML5:</a>
+                        </li>
+                </ul>
+                     <a href="pag002.html">Página 02</a>
+
+
+                    <p><abbr title="LUAN JUNIOR KLAUK">ljk</abbr></p>
+
+</body>
+
+</html>
+<strong></strong>

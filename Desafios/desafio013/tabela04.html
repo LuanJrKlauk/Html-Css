@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 04</title>
+</head>
+<style>
+    :root {
+        --cor001: #042940;
+        --cor002:#005C53;
+        --cor003: #9FC131;
+        --cor004: #DBF227;
+
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    table {
+        width: 500px ;
+        border-collapse: collapse;
+    }
+    caption {
+        font-size: 1.5em;
+        font-weight: bolder;
+        padding: 8px;
+    }
+  th {
+        border: 1px solid black;
+        padding: 8px;
+        font-weight:bolder ;
+    }
+    td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight:bolder ;
+    }
+    .cnome {
+        background-color: #04294069;
+        color: #fff;
+    }
+    .csexo {
+        background-color: var(--cor002);
+
+
+    }
+    .cidade {
+        background-color: var(--cor003);
+
+    }
+    .cprof {
+        background-color: var(--cor004);
+
+    }
+
+    col.cnome:hover {
+        background-color: #DBF227;
+
+        }
+
+
+    col.csexo:hover {
+        background-color:#9FC131 ;
+
+
+        }
+    col.cidade:hover {
+        background-color:;
+
+        }
+    col.cprof:hover {
+        background-color: var(--cor004);
+
+        }
+
+</style>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col" class="cnome">Nome</th>
+            <th scope="col" class="csexo">Sexo</th>
+            <th scope="col" class="cidade">Idade</th>
+            <th scope="col" class="cprof">Profissão</th>
+
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Estudante</td>
+
+        </tr>
+         <tr>
+             <td>Paulo Algusto</td>
+             <td>M</td>
+             <td>28</td>
+             <td>Médico</td>
+
+         </tr>
+          <tr>
+              <td>Paula Ferreira</td>
+              <td>F</td>
+              <td>42</td>
+              <td>Professora</td>
+
+          </tr>
+           <tr>
+               <td>João Pedro Neves</td>
+               <td>M</td>
+               <td>68</td>
+               <td>Aposentado</td>
+
+           </tr>
+            <tr>
+                <td>Luan Júnior Klauk </td>
+                <td>M</td>
+                <td>28</td>
+                <td>Analista de Laboratório</td>
+
+            </tr>
+             <tr>
+                 <td>Lucas Eduardo Klauk</td>
+                 <td>M</td>
+                 <td>23</td>
+                 <td>Desenvolvedor de Sistemas</td>
+
+             </tr>
+
+    </table>
+
+</body>
+</html>
